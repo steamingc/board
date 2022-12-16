@@ -1,0 +1,152 @@
+/* ---------- 공통 옵션 ----------*/
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* ----------글 등록 페이지---------- */
+.main {
+    display: flex;
+    flex-direction: column;
+    /* display: inline-flex; */
+    flex-wrap: wrap;
+    align-items: center;
+    float: left;
+}
+
+.main > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#title {
+    width: 550px;
+    height: 16px;
+}
+
+#name {
+    width: 550px;
+    height: 16px;
+}
+
+#content {
+    width: 550px;
+    height: 200px;
+    margin: 5px 5px 5px 0;
+}
+
+#write-title {
+    /* align-content: */
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 5px;
+    width: 700px;
+    background-color: #eeeeee;
+    border-top: solid 2px #bbbbbb;
+    border-bottom: solid 1px #bbbbbb;
+}
+
+.board-title {
+    margin: 20px 0 20px 10px;
+    padding: 0 0 5px 0;
+    text-align: center;
+}
+
+.main table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.col1 {
+    background-color: blanchedalmond;
+    border-bottom: solid 1px burlywood;
+    width: 150px;
+    text-align: center;
+}
+
+.col2 {
+    padding: 5px 0 0 10px; /* padding 내용과 테두리 사이 간격(top-right-bottom-left) */
+}
+
+.buttons {
+    text-align: center;
+}
+
+.rgt-btn {
+    display: inline-block;
+    cursor:pointer;
+}
+
+
+/* input[type="file"] {
+
+
+} */
+
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* ----------게시판 리스트---------- */
+#board_area {
+    width: 900px;
+    float: left;
+    position: relative;
+}
+
+.list-table {
+    margin-top: 40px;
+}
+
+.list-table thead th {
+    height: 40px;
+    border-top: 2px solid #09C;
+    border-bottom: 1px solid #CCC;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.list-table tbody td{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc; height: 20px;
+    font-size: 14px;
+}
+
+#list-footer {
+    display: flex;
+    justify-content: center;
+}
+
+#write_btn {
+    position: absolute;
+    margin-top: 20px;
+    right: 0;
+}
+
+#page_num {
+    font-size: 14px;
+    /* margin-left: 260px; */
+    /* margin-top: 30px; */
+    /* margin: auto; */
+}
+
+#page_num ul li {
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.thispage {
+    font-weight: bold;
+    color: black;
+}
+
